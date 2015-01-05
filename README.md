@@ -1,4 +1,4 @@
-<!-- [![Build Status](https://travis-ci.org/parlaywithme/coinbase.svg)](https://travis-ci.org/parlaywithme/coinbase) -->
+[![Build Status](https://travis-ci.org/parlaywithme/coinbase.svg)](https://travis-ci.org/parlaywithme/coinbase)
 
 Meteor wrapper for `coinbase-api` npm package.
 
