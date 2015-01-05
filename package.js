@@ -14,7 +14,7 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('tinytest');
   api.use('parlay:coinbase');
-  api.addFiles('parlay:coinbase-tests.js');
+  api.addFiles('parlay:coinbase-tests.js', 'server');
 });
 
 Npm.depends({ 'coinbase-api': '0.2.1' });
