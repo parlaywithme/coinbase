@@ -1,1 +1,1 @@
-// Write your package code here!
+Coinbase = Npm.require('coinbase-api');
