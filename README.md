@@ -1,6 +1,8 @@
-Meteor wrapper for `coinbase-api` node package.
+<!-- [![Build Status](https://travis-ci.org/parlaywithme/coinbase.svg)](https://travis-ci.org/parlaywithme/coinbase) -->
 
-It was the most actively-maintained npm package when I searched in Jan 2015. There were no packages other than `passport-coinbase` that supported OAuth, and AFAICT no one has successfully integrated `passport` with Meteor. If you need OAuth, use the `oauth` Meteor package, using the `twitter` package as a guide.
+Meteor wrapper for `coinbase-api` npm package.
+
+It was the most actively-maintained package when I searched in Jan 2015. There were no packages other than `passport-coinbase` that supported OAuth, and afaict no one has successfully integrated `passport` with Meteor. So if you need OAuth, I recommend using the `oauth` Meteor package, with the `twitter` package as a guide.
 
 `meteor add parlay:coinbase`
 
@@ -22,6 +24,6 @@ coinbase.addresses(function(error, data) {
 });
 ```
 
-[coinbase-api node package docs](http://emiliote.github.io/node-coinbase-api/)
+[coinbase-api npm package docs](http://emiliote.github.io/node-coinbase-api/)
 
 [Coinbase API docs](https://www.coinbase.com/docs/api/overview)
