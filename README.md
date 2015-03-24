@@ -2,6 +2,11 @@
 
 Meteor wrapper for `coinbase-api` npm package.
 
+[coinbase-api npm package](http://emiliote.github.io/node-coinbase-api/)
+
+[Coinbase API](https://www.coinbase.com/docs/api/overview)
+
+
 It was the most actively-maintained package when I searched in Jan 2015. There were no packages other than `passport-coinbase` that supported OAuth, and afaict no one has successfully integrated `passport` with Meteor. So if you need OAuth, I recommend using the `oauth` Meteor package, with the `twitter` package as a guide.
 
 `meteor add parlay:coinbase`
@@ -24,6 +29,3 @@ coinbase.addresses(function(error, data) {
 });
 ```
 
-[coinbase-api npm package docs](http://emiliote.github.io/node-coinbase-api/)
-
-[Coinbase API docs](https://www.coinbase.com/docs/api/overview)
