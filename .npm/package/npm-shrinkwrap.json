@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "coinbase-api": {
-      "version": "0.2.1",
+      "version": "0.3.1",
       "dependencies": {
         "request": {
           "version": "2.27.0",
@@ -19,16 +19,16 @@
               "version": "0.3.0"
             },
             "http-signature": {
-              "version": "0.10.0",
+              "version": "0.10.1",
               "dependencies": {
                 "assert-plus": {
-                  "version": "0.1.2"
+                  "version": "0.1.5"
                 },
                 "asn1": {
                   "version": "0.1.11"
                 },
                 "ctype": {
-                  "version": "0.5.2"
+                  "version": "0.5.3"
                 }
               }
             },
@@ -59,7 +59,7 @@
               "version": "0.3.0"
             },
             "node-uuid": {
-              "version": "1.4.2"
+              "version": "1.4.3"
             },
             "mime": {
               "version": "1.2.11"

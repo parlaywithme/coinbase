@@ -1,7 +1,7 @@
 Package.describe({
   name: 'parlay:coinbase',
   summary: 'Coinbase API wrapper (API key auth only)',
-  version: '1.0.0',
+  version: '1.0.0_1',
   git: 'https://github.com/parlaywithme/coinbase.git'
 });
 
@@ -17,4 +17,4 @@ Package.onTest(function(api) {
   api.addFiles('parlay:coinbase-tests.js', 'server');
 });
 
-Npm.depends({ 'coinbase-api': '0.2.1' });
+Npm.depends({ 'coinbase-api': '0.3.1' });
