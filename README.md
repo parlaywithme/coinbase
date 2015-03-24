@@ -1,3 +1,11 @@
+__This package is deprecated.__ Coinbase has released an official node library: 
+
+https://www.npmjs.com/package/coinbase
+
+It supports both API keys and Oauth. Include it using `meteorhacks:npm`, and use `Meteor.wrapAsync`. See https://atmospherejs.com/idrism/accounts-coinbase for Oauth integration.
+
+
+
 [![Build Status](https://travis-ci.org/parlaywithme/coinbase.svg)](https://travis-ci.org/parlaywithme/coinbase)
 
 Meteor wrapper for `coinbase-api` npm package.
